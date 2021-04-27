@@ -1,0 +1,35 @@
+/* Criação de variáveis em CSS */ 
+:root {
+  --bg-button: #F0F0F0;
+  --border-button: solid 1px #888;
+}
+
+.button {
+  font-size: 1.4em;
+  background-color: var(--bg-button);
+  border: none;
+  border-right: var(--border-button);
+  border-bottom: var(--border-button);
+  outline: none;
+}
+
+.button:active{ /* Css no momento do click */
+  background-color: #CCC;
+}
+
+.button.double{ /* Faz o botão ocupar duas posições */
+  grid-column: span 2;
+}
+
+.button.triple{
+  grid-column: span 3; /* Botão ocupando 3 posições */
+}
+
+.button.operation { /* Traz os boões de operações com cor diferente */
+  background-color: #FA8231;
+  color: #FFF;
+}
+
+.button.operation:active { /* Css no momento do click */
+  background-color: #ff8231cc;
+}

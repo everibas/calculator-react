@@ -1,0 +1,21 @@
+/* Adicionando a fonte */
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('./fonts/RobotoMono-Thin.ttf');
+}
+
+/* Seletor universal */ 
+* {
+  font-family: 'RobotoMono', monospace;
+}
+
+body {
+  display: flex;
+  height: 100vh; /* Ocupa a altura inteira da tela */
+  justify-content: center;/* Centralizando no eixo horizontal */
+  align-items: center; /* Centralizando no eixo vertical */
+  text-align: center;
+
+  color: #fff;
+  background: linear-gradient(to right, rgb(83,105, 118), rgb(41, 46, 73));
+}

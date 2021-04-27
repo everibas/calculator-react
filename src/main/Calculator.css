@@ -1,0 +1,11 @@
+.calculator {
+  height: 320px;
+  width: 235px;
+  border-radius: 5px;
+  overflow: hidden;
+
+  display: grid; /* Coloca os botões um abaixo do outro */
+  grid-template-columns: repeat(4, 25%); /* 4 colunas ocupando 25% da largura */
+  grid-template-rows: 1fr 48px 48px 48px 48px 48px;
+
+}

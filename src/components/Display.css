@@ -1,0 +1,12 @@
+.display {
+  grid-column: span 4;
+  background-color: #0004;
+
+  display: flex;
+  justify-content: flex-end; /* Posicionar no final do display lado direito */
+  align-items: center; /* centralizar o conteúdo verticalmente */
+  padding: 20px; /* descolar da borda */
+  font-size: 2.1em;
+  overflow: hidden; /* Para garantir que o conteúdo não passe do tamanho do display */
+  
+}
